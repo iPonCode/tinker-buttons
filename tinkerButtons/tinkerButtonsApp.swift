@@ -6,7 +6,7 @@ import SwiftUI
 struct tinkerButtonsApp: App {
 	var body: some Scene {
 		WindowGroup {
-			ContentView()
+			SelectionView()
 		}
 	}
 }

@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D009BCFF2ABCCE9B000E86FD /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009BCFE2ABCCE9B000E86FD /* SelectionView.swift */; };
 		D03F0AE82AAA4ACF009E6AD0 /* tinkerButtonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F0AE72AAA4ACF009E6AD0 /* tinkerButtonsApp.swift */; };
-		D03F0AEA2AAA4ACF009E6AD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F0AE92AAA4ACF009E6AD0 /* ContentView.swift */; };
+		D03F0AEA2AAA4ACF009E6AD0 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F0AE92AAA4ACF009E6AD0 /* ButtonsView.swift */; };
 		D03F0AEC2AAA4AD1009E6AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03F0AEB2AAA4AD1009E6AD0 /* Assets.xcassets */; };
 		D03F0AEF2AAA4AD1009E6AD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03F0AEE2AAA4AD1009E6AD0 /* Preview Assets.xcassets */; };
 		D0685E882AAA609E003C2F1F /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0685E872AAA609E003C2F1F /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D009BCFE2ABCCE9B000E86FD /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		D03F0AE42AAA4ACF009E6AD0 /* tinkerButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinkerButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03F0AE72AAA4ACF009E6AD0 /* tinkerButtonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinkerButtonsApp.swift; sourceTree = "<group>"; };
-		D03F0AE92AAA4ACF009E6AD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D03F0AE92AAA4ACF009E6AD0 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		D03F0AEB2AAA4AD1009E6AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03F0AEE2AAA4AD1009E6AD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0685E872AAA609E003C2F1F /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
@@ -54,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				D03F0AE72AAA4ACF009E6AD0 /* tinkerButtonsApp.swift */,
-				D03F0AE92AAA4ACF009E6AD0 /* ContentView.swift */,
+				D009BCFE2ABCCE9B000E86FD /* SelectionView.swift */,
+				D03F0AE92AAA4ACF009E6AD0 /* ButtonsView.swift */,
 				D0685E872AAA609E003C2F1F /* PickerView.swift */,
 				D03F0AEB2AAA4AD1009E6AD0 /* Assets.xcassets */,
 				D03F0AED2AAA4AD1009E6AD0 /* Preview Content */,
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03F0AEA2AAA4ACF009E6AD0 /* ContentView.swift in Sources */,
+				D03F0AEA2AAA4ACF009E6AD0 /* ButtonsView.swift in Sources */,
 				D03F0AE82AAA4ACF009E6AD0 /* tinkerButtonsApp.swift in Sources */,
 				D0685E882AAA609E003C2F1F /* PickerView.swift in Sources */,
+				D009BCFF2ABCCE9B000E86FD /* SelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,7 +5,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ButtonsView: View {
 	
 	private let cancelKey = "Cancel"
 	private let fakeAction = { print("Button tapped (random:\(Int.random(in: 0...1000)))") }
@@ -164,9 +164,9 @@ struct ContentView: View {
 	}
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ButtonsView_Previews: PreviewProvider {
 	static var previews: some View {
-		ContentView()
+		ButtonsView()
 	}
 }
 
