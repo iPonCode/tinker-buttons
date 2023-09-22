@@ -33,7 +33,7 @@ struct SelectionView: View {
 			case .idle: EmptyView()
 			case .buttons: ButtonsView()
 			case .picker: PickerView()
-			case .matix: EmptyView()
+			case .matix: MatrixView()
 			}
 		}
 	}

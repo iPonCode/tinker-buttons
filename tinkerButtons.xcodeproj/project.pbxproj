@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D009BCFF2ABCCE9B000E86FD /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009BCFE2ABCCE9B000E86FD /* SelectionView.swift */; };
+		D009BD012ABCDA00000E86FD /* MatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009BD002ABCDA00000E86FD /* MatrixView.swift */; };
 		D03F0AE82AAA4ACF009E6AD0 /* tinkerButtonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F0AE72AAA4ACF009E6AD0 /* tinkerButtonsApp.swift */; };
 		D03F0AEA2AAA4ACF009E6AD0 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F0AE92AAA4ACF009E6AD0 /* ButtonsView.swift */; };
 		D03F0AEC2AAA4AD1009E6AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03F0AEB2AAA4AD1009E6AD0 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D009BCFE2ABCCE9B000E86FD /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		D009BD002ABCDA00000E86FD /* MatrixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixView.swift; sourceTree = "<group>"; };
 		D03F0AE42AAA4ACF009E6AD0 /* tinkerButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinkerButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03F0AE72AAA4ACF009E6AD0 /* tinkerButtonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinkerButtonsApp.swift; sourceTree = "<group>"; };
 		D03F0AE92AAA4ACF009E6AD0 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D009BCFE2ABCCE9B000E86FD /* SelectionView.swift */,
 				D03F0AE92AAA4ACF009E6AD0 /* ButtonsView.swift */,
 				D0685E872AAA609E003C2F1F /* PickerView.swift */,
+				D009BD002ABCDA00000E86FD /* MatrixView.swift */,
 				D03F0AEB2AAA4AD1009E6AD0 /* Assets.xcassets */,
 				D03F0AED2AAA4AD1009E6AD0 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D009BD012ABCDA00000E86FD /* MatrixView.swift in Sources */,
 				D03F0AEA2AAA4ACF009E6AD0 /* ButtonsView.swift in Sources */,
 				D03F0AE82AAA4ACF009E6AD0 /* tinkerButtonsApp.swift in Sources */,
 				D0685E882AAA609E003C2F1F /* PickerView.swift in Sources */,
